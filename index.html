@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kanban Board</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="clearBoardBtn">🧹 Clear Board</button>
+
+  <div id="board">
+    <div class="column" id="todo">
+      <h2>To Do</h2>
+      <div class="task-list"></div>
+      <button onclick="addTask('todo')">+ Add Task</button>
+    </div>
+
+    <div class="column" id="inprogress">
+      <h2>In Progress</h2>
+      <div class="task-list"></div>
+      <button onclick="addTask('inprogress')">+ Add Task</button>
+    </div>
+
+    <div class="column" id="done">
+      <h2>Done</h2>
+      <div class="task-list"></div>
+      <button onclick="addTask('done')">+ Add Task</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html> 
+
+
