@@ -1,6 +1,6 @@
 # 📝 Simple Kanban Board
 
-<a href="https://kanban-board-dun-iota.vercel.app/">LINK</a>
+<a href="https://kanban-board-dun-iota.vercel.app/">Link to the website</a>
 
 A lightweight **Trello-style Kanban board** built with **HTML, CSS, and JavaScript**.  
 You can add, edit, delete, drag, and drop tasks across columns.  
